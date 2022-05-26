@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="form" action="thanks.html" method="get">
+        <h1>Hey there!</h1>
+
+        <p>What's your name ?</p>
+        <input type="text" placeholder="Enter your name" class="name-p" required />
+
+        <p>What's your email address?</p>
+        <input type="email" placeholder="Enter your email address" class="email-p" required />
+
+        <p>What service are you looking for?</p>
+        <select id="select1" placeholder="Choose a service" required>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+        </select>
+
+        <p>What is your budget?</p>
+        <select id="select2" placeholder="Choose a service" required>
+            <option>1000 $</option>
+            <option>2000 $</option>
+            <option>3000 $</option>
+            <option>4000 $</option>
+        </select>
+
+        <p>Anything else you'd like to tell us ?</p>
+        <textarea name="text-area" id="text-area" cols="25" rows="1" placeholder="Your message here..."
+            class="text-area" required></textarea>
+
+        <p>I agree with T&Cs. <input type="checkbox" required /></p>
+
+        <button class="gradient-button gradient-button-4" href="thanks.html">Submit -></button>
+    </form>
+
+</body>
+
+</html>
